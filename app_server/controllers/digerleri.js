@@ -4,4 +4,7 @@ var router =express.Router();
 var hakkinda = function(req, res){
 res.render('hakkinda', {title: 'Burak Bakar'});
 }
-module.exports={hakkinda};
+var admin = function(req, res){
+res.render('admin', {title: 'Burak Bakar'});
+}
+module.exports={hakkinda,admin};
